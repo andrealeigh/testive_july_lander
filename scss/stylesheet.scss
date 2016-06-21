@@ -43,3 +43,51 @@
 }
 
 /* styles for testive_july_lander */
+
+.lander-july-promo {
+    @include flex;
+    @include flex-direction(column);
+    color: #1b1464;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.lander-july-bg {
+    height: inherit;
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+}
+
+.lander-july-white-bg {
+        @include flex;
+        @include flex-direction(column);
+        @include flex-justify-content(center);
+        background-color: rgba(255, 255, 255, .8);
+        height: inherit;
+        margin: 0 auto;
+        padding: 100px;
+        position: absolute;
+        z-index: 2;
+    .lander-july-header {
+        font-size: 50px;
+        max-width: 700px;
+        text-align: center;
+
+    }
+    .lander-july-button {
+        background-color: #1b1464;
+        border-radius: 7px;
+        color: #fff;
+        font-size: 24px;
+        padding: 20px;
+        margin: 30px auto;
+        text-align: center;
+        width: 300px;
+    }
+    .lander-july-subheader {
+        font-size: 32px;
+        text-align: center;
+    }
+}

@@ -1,2 +1,57 @@
 /* flexbox mixins */
 /* styles for testive_july_lander */
+.lander-july-promo {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  color: #1b1464;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.5; }
+
+.lander-july-bg {
+  height: inherit;
+  position: absolute;
+  width: 100vw;
+  z-index: 1; }
+
+.lander-july-white-bg {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: inherit;
+  margin: 0 auto;
+  padding: 100px;
+  position: absolute;
+  z-index: 2; }
+  .lander-july-white-bg .lander-july-header {
+    font-size: 50px;
+    max-width: 700px;
+    text-align: center; }
+  .lander-july-white-bg .lander-july-button {
+    background-color: #1b1464;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    width: 300px; }
+  .lander-july-white-bg .lander-july-subheader {
+    font-size: 32px;
+    text-align: center; }
